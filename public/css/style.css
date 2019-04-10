@@ -128,3 +128,8 @@ body {
     transition: all 0.5s;
     font-weight: 600;
 }
+
+.btn-postar {
+    margin: 5px 0px;
+    border: 0;
+}

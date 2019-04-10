@@ -8,10 +8,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Smart Solutions</title>
+    <title>MVP - Smart Solutions</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- fontawesome core CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
@@ -23,7 +26,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-ct-blue fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Smart Solutions</a>
+            <a class="navbar-brand" href="index.html">MVP</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -177,16 +180,16 @@
             <div class="col-md-3">
 
                 <!-- Search Widget -->
-                <div class="card my-3">
-                    <h5 class="card-header">Busca</h5>
-                    <div class="card-body">
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Buscar por...">
-                            <span class="input-group-btn">
-                            <button class="btn btn-secondary" type="button">Vai!</button>
-                            </span>
-                        </div>
-                    </div>
+                <div class="input-group my-3">
+                    <span class="input-group-prepend">
+                        <div class="input-group-text bg-transparent border-right-0"><i class="fa fa-search"></i></div>
+                    </span>
+                    <input class="form-control py-2 border-left-0 border bg-outline-secondary" type="search" value="..." id="example-search-input">
+                    <span class="input-group-append">
+                        <button class="btn btn-secondary navbar-ct-blue border-left-0 border" type="button">
+                            Buscar
+                        </button>
+                    </span>
                 </div>
 
                 <!-- Categories Widget -->

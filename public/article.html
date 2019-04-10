@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Smart Solutions</title>
+    <title>MVP - Smart Solutions</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,7 +26,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark navbar-ct-blue fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Smart Solutions</a>
+            <a class="navbar-brand" href="index.html">MVP</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -63,7 +63,7 @@
 
                 <!-- Blog Post -->
                 <div class="card my-3">
-                    <img class=" card-img-top " src="http://placehold.it/750x300 " alt="Card image cap ">
+                    <img class=" card-img-top " src="images/blog-5.jpg" alt="Card image cap ">
                     <div class="card-body ">
                         <h2 class="card-title ">Qual a melhor divisão de treino?</h2>
                         <ul class="post-meta">
@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="card-footer text-muted ">
-                        Escrito em 09/04/2019 por
+                        Escrito em 09/04/2019 23:56:23 por
                         <a href="# ">@jpsilva</a>
                     </div>
                 </div>
@@ -93,48 +93,47 @@
                     <div class="card-body ">
                         <div class="card-text comment-wrapper ">
                             <textarea class="form-control " placeholder="escreva um comentário... " rows="3 "></textarea>
-                            <br>
-                            <button type="button " class="btn btn-info pull-right ">Postar</button>
+                            <button type="button" class="btn btn-secondary navbar-ct-blue float-right btn-postar">Postar</button>
                             <div class="clearfix "></div>
                             <hr>
                             <ul class="media-list ">
-                                <li class="media ">
-                                    <a href="# " class="float-left ">
-                                        <img src="images/user_1.jpg " alt=" " class="rounded-circle ">
+                                <li class="media">
+                                    <a href="# " class="float-left">
+                                        <img src="images/user_1.jpg" alt=" " class="rounded-circle ">
                                     </a>
                                     <div class="media-body ">
                                         <span class="text-muted float-right ">
-                                            <small class="text-muted ">09/04/2019</small>
+                                            <small class="text-muted ">09/04/2019 13:56:36</small>
                                         </span>
-                                        <strong class="text-info ">@MartinoMont</strong>
+                                        <strong class="text-dark">@MartinoMont</strong>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, <a href="# ">#consecteturadipiscing </a>.
                                         </p>
                                     </div>
                                 </li>
-                                <li class="media ">
-                                    <a href="# " class="float-left ">
+                                <li class="media">
+                                    <a href="# " class="float-left">
                                         <img src="images/user_2.jpg " alt=" " class="rounded-circle ">
                                     </a>
-                                    <div class="media-body ">
-                                        <span class="text-muted float-right ">
-                                            <small class="text-muted ">09/04/2019</small>
+                                    <div class="media-body">
+                                        <span class="text-muted float-right">
+                                            <small class="text-muted">09/04/2019 09:35:06</small>
                                         </span>
-                                        <strong class="text-info ">@LaurenceCorreil</strong>
+                                        <strong class="text-dark">@LaurenceCorreil</strong>
                                         <p>
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor <a href="# ">#ipsumdolor </a>adipiscing elit.
                                         </p>
                                     </div>
                                 </li>
                                 <li class="media ">
-                                    <a href="# " class="float-left ">
-                                        <img src="images/user_3.jpg " alt=" " class="rounded-circle ">
+                                    <a href="# " class="float-left">
+                                        <img src="images/user_3.jpg" alt=" " class="rounded-circle">
                                     </a>
-                                    <div class="media-body ">
-                                        <span class="text-muted float-right ">
-                                            <small class="text-muted ">09/04/2019</small>
+                                    <div class="media-body">
+                                        <span class="text-muted float-right">
+                                            <small class="text-muted ">09/04/2019 20:25:65</small>
                                         </span>
-                                        <strong class="text-info ">@JohnNida</strong>
+                                        <strong class="text-dark ">@JohnNida</strong>
                                         <p>
                                             Lorem ipsum dolor <a href="# ">#sitamet</a> sit amet, consectetur adipiscing elit.
                                         </p>
@@ -152,16 +151,16 @@
             <div class="col-md-3 ">
 
                 <!-- Search Widget -->
-                <div class="card my-3 ">
-                    <h5 class="card-header ">Busca</h5>
-                    <div class="card-body ">
-                        <div class="input-group ">
-                            <input type="text " class="form-control " placeholder="Buscar por... ">
-                            <span class="input-group-btn ">
-                            <button class="btn btn-secondary " type="button ">Vai!</button>
-                            </span>
-                        </div>
-                    </div>
+                <div class="input-group my-3">
+                    <span class="input-group-prepend">
+                        <div class="input-group-text bg-transparent border-right-0"><i class="fa fa-search"></i></div>
+                    </span>
+                    <input class="form-control py-2 border-left-0 border bg-outline-secondary" type="search" value="..." id="example-search-input">
+                    <span class="input-group-append">
+                        <button class="btn btn-secondary navbar-ct-blue border-left-0 border" type="button">
+                            Buscar
+                        </button>
+                    </span>
                 </div>
 
                 <!-- Categories Widget -->
